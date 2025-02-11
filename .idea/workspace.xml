@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="070470b4-cf6f-47d6-bda3-a3bdb0d5bb77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/Bubble.java" afterDir="false" />
-    </list>
+    <list default="true" id="070470b4-cf6f-47d6-bda3-a3bdb0d5bb77" name="Changes" comment="bubble sort" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,9 +32,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BinarySearch.executor": "Run",
+    "Application.Bubble.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.array1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/ICET/Programming/programming"
   }
@@ -112,6 +112,19 @@
       <option name="presentableId" value="Default" />
       <updated>1737786962976</updated>
     </task>
+    <task id="LOCAL-00001" summary="bubble sort">
+      <option name="closed" value="true" />
+      <created>1739292943914</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739292943915</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bubble sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="bubble sort" />
   </component>
 </project>
