@@ -3,7 +3,8 @@ package string;
 public class StringClass {
 
     public static void main(String[] args) {
-        System.out.println(isPalindrome("Ayllya"));;
+        System.out.println(isPalindrome("A" +
+                "yllya"));;
     }
 
     public static boolean isPalindrome(String str){
