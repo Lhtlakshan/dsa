@@ -1,14 +1,12 @@
 package string;
 
-import com.sun.tools.javac.Main;
-
 public class StringBuilderClass {
     public static void main(String[] args) {
         String str = "This1 a3 is2 book4";
 
         System.out.println(sortSentence(str));
 
-
+        System.out.println(isPalindrome("abba"));;
 
     }
 
@@ -33,6 +31,13 @@ public class StringBuilderClass {
 
     void fun(){
         System.out.println("fun");
+    }
+
+    static boolean isPalindrome(String str){
+        String str2 = str.toLowerCase();
+        StringBuilder sb = new StringBuilder(str2);
+
+        return str2.equals(sb.reverse().toString()) ? true : false;
     }
 
 }
