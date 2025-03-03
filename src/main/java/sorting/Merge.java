@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class Merge {
 
+    // O(Nlog(N))
     public static void main(String[] args) {
         int[] arr = {1,4,2,5,7,4};
 
