@@ -14,4 +14,7 @@ public class ReverceNum {
 
         return Integer.parseInt(num%10 + "" + reverseNum(num/10));
     }
+
+
+
 }
