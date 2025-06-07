@@ -1,7 +1,7 @@
 package designpatterns.singleton;
 
 public class Main {
-    Singleton s = Singleton.getInstance("Chamath");
+    Singleton s = Singleton.getInstance("kamal");
     Singleton s2 = Singleton.getInstance("Nimal");
     Singleton s3 = Singleton.getInstance("Sunil");
 

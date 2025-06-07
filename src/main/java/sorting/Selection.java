@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Selection {
 
     public static void main(String[] args) {
-        int []arr = {2,3,4,6,23,2};
+        int []arr = {2,300,40,6,23,20};
 
         selectionSort(arr);
 
@@ -22,8 +22,8 @@ public class Selection {
 
     static int maxIndex(int[] arr , int start , int end){
         int max = start;
-        for (int i = start; i < end; i++) {
-            if(arr[start] < arr[i]){
+        for (int i = start; i <= end; i++) {
+            if(arr[max] < arr[i]){
                 max = i;
             }
         }

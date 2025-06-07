@@ -4,59 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="070470b4-cf6f-47d6-bda3-a3bdb0d5bb77" name="Changes" comment="bubble sort" />
+    <list default="true" id="fb1d8023-48cb-4981-9d8b-04f855626062" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/Encapsulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/Inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/Polymorphism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/Bubble.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2s6reEQuTPBeG2Uv2CnTqk5Gooy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2u6sge9uZwfp7z7TViZmEbt6fik" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BinarySearch.executor": "Run",
-    "Application.Bubble.executor": "Run",
-    "Application.LinearSearch.executor": "Run",
-    "Application.array1.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Selection.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/ICET/Programming/programming"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Bubble">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.BinarySearch" />
-      <module name="programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="binarysearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.Bubble" />
+  <component name="RunManager">
+    <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.Selection" />
       <module name="programming" />
       <extension name="coverage">
         <pattern>
@@ -68,63 +54,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linearsearch.LinearSearch" />
-      <module name="programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linearsearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="array1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.array1" />
-      <module name="programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bubble" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.LinearSearch" />
-        <item itemvalue="Application.array1" />
+        <item itemvalue="Application.Selection" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="070470b4-cf6f-47d6-bda3-a3bdb0d5bb77" name="Changes" comment="" />
-      <created>1737786962976</created>
+      <changelist id="fb1d8023-48cb-4981-9d8b-04f855626062" name="Changes" comment="" />
+      <created>1741580473371</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1737786962976</updated>
+      <updated>1741580473371</updated>
     </task>
-    <task id="LOCAL-00001" summary="bubble sort">
-      <option name="closed" value="true" />
-      <created>1739292943914</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1739292943915</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="bubble sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="bubble sort" />
   </component>
 </project>
