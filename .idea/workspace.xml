@@ -4,20 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb1d8023-48cb-4981-9d8b-04f855626062" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/Abstraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/Encapsulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/Inheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/Polymorphism.java" afterDir="false" />
+    <list default="true" id="fb1d8023-48cb-4981-9d8b-04f855626062" name="Changes" comment="updated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/binarysearch/q/Ceiling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/CyclicSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unittesting/TestNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unittesting/TestNormalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lambda/LambdaExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambda/LambdaExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/binarysearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/binarysearch/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/binarysearch/PracticalUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/binarysearch/PracticalUsage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/string/StringClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/StringClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,14 +46,59 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Bubble.executor": "Debug",
+    "Application.Ceiling.executor": "Run",
+    "Application.CyclicSort.executor": "Run",
+    "Application.Factory.executor": "Run",
+    "Application.LambdaExpression.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MainThread.executor": "Run",
+    "Application.MissingNumber.executor": "Run",
+    "Application.PracticalUsage.executor": "Run",
     "Application.Selection.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.StringClass.executor": "Run",
+    "JUnit.TestNormalTest.executor": "Run",
+    "JUnit.TestNormalTest.productTest.executor": "Run",
+    "Maven.programming [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/ICET/Programming/programming"
+    "last_opened_file_path": "D:/A_Industry_training/noq_web"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.StringClass">
+    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.CyclicSort" />
+      <module name="programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.MissingNumber" />
+      <module name="programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sorting.Selection" />
       <module name="programming" />
@@ -54,8 +112,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.Solution" />
+      <module name="programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.StringClass" />
+      <module name="programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringClass" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.CyclicSort" />
+        <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.Selection" />
       </list>
     </recent_temporary>
@@ -69,6 +157,19 @@
       <option name="presentableId" value="Default" />
       <updated>1741580473371</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated">
+      <option name="closed" value="true" />
+      <created>1749315348342</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749315348342</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>

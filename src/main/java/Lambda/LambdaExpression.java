@@ -5,7 +5,8 @@ public class LambdaExpression {
     Operation mul = (a,b)-> a*b;
 
     public static void main(String[] args) {
-
+        LambdaExpression l = new LambdaExpression();
+        System.out.println(l.sum.operation(5,6));
     }
 
 }

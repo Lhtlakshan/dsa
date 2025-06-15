@@ -11,7 +11,7 @@ public class BinarySearch {
 
     static int binarySearch(int[] arr , int target){
         int start = 0;
-        int end = arr.length -1;
+        int end = arr.length - 1;
 
         boolean isAsc = arr[start] < arr[end];
 

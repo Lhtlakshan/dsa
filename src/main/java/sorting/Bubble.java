@@ -4,13 +4,13 @@ public class Bubble {
 
     public static void main(String[] args) {
 
-        int[] arr = {2,7,1,2,5,30};
+        int[] arr = {2,23,44,59,1,2,5,30};
 
         bubbleSort(arr);
-
-        for (int a:arr){
-            System.out.println(a);
-        }
+        System.out.println(secondLarge(arr));
+//        for (int a:arr){
+//            System.out.println(a);
+//        }
  
     }
 
@@ -33,4 +33,19 @@ public class Bubble {
             }
         }
     }
+
+    public static int secondLarge(int[] arr){
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < arr.length-i-1 ; j++) {
+                if(arr[j] > arr[j+1]){
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+        return arr[arr.length-2];
+    }
+
+
 }
