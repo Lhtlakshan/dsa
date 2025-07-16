@@ -8,7 +8,8 @@ public class BinarySearchRec {
         int[] arr = {1,2,3,5,7,8,9};
 
        // System.out.println(search(arr,9 ,0,6));
-        print(5);
+//        print(5);
+
     }
 
     public static int search(int[] arr, int target , int start ,  int end){
@@ -35,4 +36,5 @@ public class BinarySearchRec {
         }
         System.out.println(n);
     }
+
 }

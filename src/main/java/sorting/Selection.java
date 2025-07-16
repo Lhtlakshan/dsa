@@ -14,7 +14,7 @@ public class Selection {
 
     static void selectionSort(int[] arr){
         for (int i=0;i < arr.length; i++){
-            int last = arr.length - i - 1;
+            int last = arr.length - i - 1  ;
             int max = maxIndex(arr, 0, last);
             swap(arr, max , last);
         }

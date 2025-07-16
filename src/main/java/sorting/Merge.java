@@ -22,7 +22,7 @@ public class Merge {
         int[] left = mergeSort(Arrays.copyOfRange(arr,0,mid));
         int[] right = mergeSort(Arrays.copyOfRange(arr,mid,arr.length));
 
-        return merge(left , right);
+        return   merge(left , right);
     }
 
     private static int[] merge(int[] left, int[] right) {

@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb1d8023-48cb-4981-9d8b-04f855626062" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/src/main/java/binarysearch/q/Ceiling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/factory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/CyclicSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unittesting/TestNormal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unittesting/TestNormalTest.java" afterDir="false" />
+    <list default="true" id="fb1d8023-48cb-4981-9d8b-04f855626062" name="Changes" comment="unit testing,cyclic sort">
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/Singleton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recurrence/Questions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lambda/LambdaExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambda/LambdaExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/binarysearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/binarysearch/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/binarysearch/PracticalUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/binarysearch/PracticalUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/singleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/Inheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/Inheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recurrence/BinarySearchRec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recurrence/BinarySearchRec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/Merge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/StringClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/StringClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +41,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BinarySearchRec.executor": "Run",
     "Application.Bubble.executor": "Debug",
     "Application.Ceiling.executor": "Run",
     "Application.CyclicSort.executor": "Run",
+    "Application.Factorial.executor": "Run",
     "Application.Factory.executor": "Run",
+    "Application.Inheritance.executor": "Run",
     "Application.LambdaExpression.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainThread.executor": "Run",
+    "Application.Merge.executor": "Run",
     "Application.MissingNumber.executor": "Run",
     "Application.PracticalUsage.executor": "Run",
+    "Application.Questions.executor": "Run",
     "Application.Selection.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.StringClass.executor": "Run",
@@ -67,14 +67,58 @@
     "last_opened_file_path": "D:/A_Industry_training/noq_web"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="designpatterns.singleton" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringClass">
-    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.CyclicSort" />
+  <component name="RunManager" selected="Application.Questions">
+    <configuration name="BinarySearchRec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recurrence.BinarySearchRec" />
+      <module name="programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recurrence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Inheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.Inheritance" />
+      <module name="programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.singleton.Main" />
+      <module name="programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.Merge" />
       <module name="programming" />
       <extension name="coverage">
         <pattern>
@@ -86,51 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.MissingNumber" />
+    <configuration name="Questions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recurrence.Questions" />
       <module name="programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.Selection" />
-      <module name="programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.Solution" />
-      <module name="programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.StringClass" />
-      <module name="programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="recurrence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringClass" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.CyclicSort" />
-        <item itemvalue="Application.MissingNumber" />
-        <item itemvalue="Application.Selection" />
+        <item itemvalue="Application.Questions" />
+        <item itemvalue="Application.BinarySearchRec" />
+        <item itemvalue="Application.Inheritance" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Merge" />
       </list>
     </recent_temporary>
   </component>
@@ -165,11 +170,20 @@
       <option name="project" value="LOCAL" />
       <updated>1749315348342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="unit testing,cyclic sort">
+      <option name="closed" value="true" />
+      <created>1749979828472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749979828472</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="unit testing,cyclic sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit testing,cyclic sort" />
   </component>
 </project>

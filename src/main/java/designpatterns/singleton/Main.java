@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
 
         Main m = new Main();
-        System.out.println(m.s.toString()); //Singleton{name='Chamath'}
-        System.out.println(m.s2.toString()); //Singleton{name='Chamath'}
-        System.out.println(m.s3.toString()); //Singleton{name='Chamath'}
+        System.out.println(m.s.toString()); //Singleton{name='Kamal'}
+        System.out.println(m.s2.toString()); //Singleton{name='Kamal'}
+        System.out.println(m.s3.toString()); //Singleton{name='Kamal'}
     }
 }
