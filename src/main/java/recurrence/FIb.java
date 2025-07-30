@@ -2,7 +2,7 @@ package recurrence;
 
 public class FIb {
     public static void main(String[] args) {
-
+        System.out.println(fib(50));
     }
 
     public static int fib(int num){

@@ -1,0 +1,31 @@
+Dynamic Programming (DP) is a technique used to solve complex problems
+ by breaking them into smaller subproblems, solving each subproblem only once,
+ and storing the results to avoid recalculating them.
+
+Use Dynamic Programming when:
+ 1) Overlapping subproblems exist (same subproblems repeat)
+ 2) Optimal substructure exists (solution of bigger problem depends on smaller ones)
+
+Two Main Approaches:
+
+1)Top-Down (Memoization)
+  (Use recursion + cache the results in an array or map.)
+
+int fib(int n, int[] dp) {
+    if (n <= 1) return n;
+    if (dp[n] != -1) return dp[n];
+    return dp[n] = fib(n - 1, dp) + fib(n - 2, dp);
+}
+
+2)Bottom-Up (Tabulation)
+  Use a loop to build the solution from base cases.
+
+  int fib(int n) {
+      int[] dp = new int[n + 1];
+      dp[0] = 0;
+      dp[1] = 1;
+      for (int i = 2; i <= n; i++) {
+          dp[i] = dp[i - 1] + dp[i - 2];
+      }
+      return dp[n];
+  }
