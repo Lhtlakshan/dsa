@@ -5,14 +5,16 @@ public class StringClass {
     public static void main(String[] args) {
 //        System.out.println(isPalindrome("A" + "yllya"));
 
+        //String pool is a separate memory space in heap memory
+        //Don't create same string objects
         String a = "Thilina";
-        String b = "Thilina";
+        String b = "Thilina";//String object
 
         boolean x = a==b;
         System.out.println("Check a==b : "+ x);
         System.out.println(a.equals(b));
 
-        String c = new String("Lakshan");
+        String c = new String("Lakshan"); //out side of string pool
         String d = new String("Lakshan");
 
         System.out.println(c==d); // both value and location

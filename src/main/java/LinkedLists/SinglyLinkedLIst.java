@@ -11,6 +11,19 @@ public class SinglyLinkedLIst {
         this.size = 0;
     }
 
+    Node reverseList(Node val){
+        Node curr = val;
+        Node prev = null;
+
+        while(curr != null){
+            Node temp = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = temp;
+        }
+        return prev;
+    }
+
     void insertFirst(int val){
         Node node = new Node(val);
         node.next = head;
@@ -63,7 +76,7 @@ public class SinglyLinkedLIst {
     void display(){
         Node temp = head;
         while(temp != null){
-            System.out.println(temp + "->");
+            System.out.println(temp.val + "->");
             temp = temp.next;
             size++;
         }
@@ -143,5 +156,17 @@ public class SinglyLinkedLIst {
             this.val = val;
         }
 
+    }
+
+    public static void main(String[] args) {
+        SinglyLinkedLIst list = new SinglyLinkedLIst();
+
+        list.insertFirst(10);
+        list.insertFirst(20);
+        list.insertFirst(30);
+        list.insertFirst(40);
+
+        //list.reverseList(list.head);
+        list.display();
     }
 }
