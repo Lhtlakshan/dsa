@@ -41,7 +41,7 @@ public class Selection {
 
     }
 
-    //selection sort in one method
+    //selection sort in one method (ascending order)
     static void selectionSortInOne(int[] arr){
         for(int i = 0; i< arr.length - 1; i++){
             int min = i;
@@ -55,7 +55,6 @@ public class Selection {
             int temp = arr[min];
             arr[min] = arr[i];
             arr[i] = temp;
-
         }
     }
 }
