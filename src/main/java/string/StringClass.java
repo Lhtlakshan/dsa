@@ -1,5 +1,7 @@
 package string;
 
+import java.util.Arrays;
+
 public class StringClass {
 
     public static void main(String[] args) {
@@ -7,18 +9,20 @@ public class StringClass {
 
         //String pool is a separate memory space in heap memory
         //Don't create same string objects
-        String a = "Thilina";
-        String b = "Thilina";//String object
+//        String a = "Thilina";
+//        String b = "Thilina";//String object
+//
+//        boolean x = a==b;
+//        System.out.println("Check a==b : "+ x);
+//        System.out.println(a.equals(b));
+//
+//        String c = new String("Lakshan"); //out side of string pool
+//        String d = new String("Lakshan");
+//
+//        System.out.println(c==d); // both value and location
+//        System.out.println(a.equals(b)); //only value
 
-        boolean x = a==b;
-        System.out.println("Check a==b : "+ x);
-        System.out.println(a.equals(b));
-
-        String c = new String("Lakshan"); //out side of string pool
-        String d = new String("Lakshan");
-
-        System.out.println(c==d); // both value and location
-        System.out.println(a.equals(b)); //only value
+        System.out.println(countWords("hi my name is thilina lakshan"));
     }
 
     public static boolean isPalindrome(String str){
@@ -67,5 +71,11 @@ public class StringClass {
         char temp = chr[i];
         chr[i] = chr[j];
         chr[j] = temp;
+    }
+
+    public static int countWords(String str){
+        String[] arr = str.split(" ");
+
+        return arr.length;
     }
 }
