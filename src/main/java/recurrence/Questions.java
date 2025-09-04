@@ -10,20 +10,21 @@ public class Questions {
 //        System.out.println(findAllIndexLinearSearch(arr , 3,0,new ArrayList<>()));
 //        System.out.println(noOfZeros(20001011));
 
-        Integer t = 536870912;
-        Double x = Math.log(t)/Math.log(2);
+        System.out.println(isPowerOfTwo(30));
 
-        System.out.println(Math.floor(x));
-        System.out.println(Math.ceil(x));
     }
 
     public static boolean isPowerOfTwo(int n) {
         if(n <= 0){
             return false;
         }
-
-        Double x = Math.log(n)/Math.log(2);
-        return x == Math.floor(x);
+        if(n == 1){
+            return true;
+        }
+        if(n%2 == 0){
+            return isPowerOfTwo(n/2);
+        }
+        return false;
     }
 
     static ArrayList<Integer> findAllIndexLinearSearch(Integer[] arr , Integer target, int index , ArrayList<Integer> list){
@@ -34,16 +35,6 @@ public class Questions {
             list.add(index);
         }
         return findAllIndexLinearSearch(arr , target , index+1, list);
-    }
-
-    static int sum = 0;
-    public static void revDigits(int num){
-        if(num == 0){
-            return;
-        }
-
-        sum = sum*10 + num%10;
-        revDigits(num/10);
     }
 
     //number of zeros

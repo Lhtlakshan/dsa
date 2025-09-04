@@ -38,7 +38,7 @@ public class MainThread {
 //        second.start();
 
 
-        // new threads for use same data different threads
+        // new threads for use same data in different threads
         Count c = new Count();
         Thread t1 = new Thread(()->{
             for (int i = 0; i < 20; i++) {

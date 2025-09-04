@@ -11,6 +11,7 @@ public class StringQuestions {
 //            System.out.println(i);
 //        }
 
+
         String a = "saman";
         Character ch = '1';
         char c = ch;

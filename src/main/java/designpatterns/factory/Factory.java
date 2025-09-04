@@ -1,13 +1,13 @@
 package designpatterns.factory;
 
 public class Factory {
-//    public static void main(String[] args) {
-//        VehicleFactory vehicleFactory = new ThreeWheelerFactory();
-//        Client client = new Client(vehicleFactory);
-//        Vehicle twoWheeler = client.getVehicle();
-//        twoWheeler.vehicle();
-//
-//    }
+    public static void main(String[] args) {
+        VehicleFactory vehicleFactory = new ThreeWheelerFactory();
+        Client client = new Client(vehicleFactory);
+        Vehicle twoWheeler = client.getVehicle();
+        twoWheeler.vehicle();
+
+    }
 
 
 }
@@ -56,3 +56,4 @@ class Client{
         return this.vehicle;
     }
 }
+
