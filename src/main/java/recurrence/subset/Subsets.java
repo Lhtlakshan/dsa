@@ -40,8 +40,8 @@ public class Subsets {
             return list;
         }
 
-        List<String> list1 = new ArrayList<>(subSetList(up+p.charAt(0),p.substring(1)));
-        List<String> list2 = new ArrayList<>(subSetList(up,p.substring(1)));
+        List<String> list1 = new ArrayList<>(subSetList(up+p.charAt(0),p.substring(1))); //taking something
+        List<String> list2 = new ArrayList<>(subSetList(up,p.substring(1))); //ignoring something
 
         list1.addAll(list2);
         return list1;
