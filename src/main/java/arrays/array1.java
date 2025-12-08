@@ -17,11 +17,23 @@ public class array1 {
 //
 //        System.out.println(maxValue(new int[]{1,2,3,20}));
 
-        int[] array = {1,2,3,4,5,5,6,6,6,7,7,7,7};
-        System.out.println(removeDuplicates(array));
+//        int[] array = {1,2,3,4,5,5,6,6,6,7,7,7,7};
+//        System.out.println(removeDuplicates(array));
 
 //        reverse(array);
 //        System.out.println(Arrays.toString(array));
+
+        int[][] arr = new int[2][];
+
+        arr = new int[][]{{1, 2, 3}, {1, 3}};
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+
     }
 
 //    public static int noOfCharacter(String str){

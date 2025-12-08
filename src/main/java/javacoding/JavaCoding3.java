@@ -70,7 +70,7 @@ public class JavaCoding3 {
         return stringBuilder.toString();
     }
 
-    // 17 separate string part and number part
+    // 20 separate string part and number part
     public static void separateAlphaAndNumeric(String input){
         StringBuilder alphaPart = new StringBuilder();
         StringBuilder numericPart = new StringBuilder();
